@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 16px;
+  text-align: center;
+}
+
+html {
+  overflow-x: hidden;
+  max-width: 100vw;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  background-color: #8c579b;
+}
+
+form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+form #insert {
+  padding: 10px 5px;
+  border-radius: 5px;
+  border: black 1px solid;
+}
+
+form #send {
+  padding: 10px 5px;
+  border-radius: 5px;
+  width: 10vw;
+  border: black 1px solid;
+  font-weight: 800;
+}
+
+.from-form {
+  width: 500px;
+  height: 250px;
+  background-color: #fff;
+  border: black 1px solid;
+  margin-top: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: scroll;
+  margin: 0 auto;
+}
+
+.from-form p {
+  padding: 10px 0px 0px 10px;
+}
+
+.velky {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10vw;
+}
+
+.obsah {
+  margin-top: 50px;
+  display: -ms-grid;
+  display: grid;
+}
+
+.scrollToTop {
+  display: none;
+  position: fixed;
+  bottom: 5vh;
+  right: 3vw;
+  z-index: 1;
+  border: black solid 2px;
+  border-radius: 1rem 1rem;
+  cursor: pointer;
+}
+
+.scrollToTop img {
+  height: 6vh;
+}
+/*# sourceMappingURL=style.css.map */
